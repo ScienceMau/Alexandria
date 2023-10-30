@@ -24,7 +24,8 @@ $$ \dot{x} = 4xy^2-x+A cos(\omega t)$$
 
 $$ \dot{y} = -4x^2y+y+Acos(\omega t )$$
 
-O arquivo 1_script.jl utiliza as seguintes bibliotecas:
+O arquivo 1_script.jl utiliza as seguintes bibliotecas: 
+DynamicalSystems.jl, SharedArrays.jl, MAT.jl, Statistics.jl, OrdinaryDiffEq.jl, ProgressMeter.jl, DelimitedFiles.jl, CairoMakie.jl
 
 
 
