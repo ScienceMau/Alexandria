@@ -27,5 +27,7 @@ $$ \dot{y} = -4x^2y+y+Acos(\omega t )$$
 O arquivo 1_script.jl utiliza as seguintes bibliotecas: 
 DynamicalSystems.jl, SharedArrays.jl, MAT.jl, Statistics.jl, OrdinaryDiffEq.jl, ProgressMeter.jl, DelimitedFiles.jl, CairoMakie.jl
 
+Nessa primeira versão é cálculado a bacia de atração, expo
+
 
 
