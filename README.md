@@ -27,7 +27,14 @@ $$ \dot{y} = -4x^2y+y+Acos(\omega t )$$
 O arquivo 1_script.jl utiliza as seguintes bibliotecas: 
 DynamicalSystems.jl, SharedArrays.jl, MAT.jl, Statistics.jl, OrdinaryDiffEq.jl, ProgressMeter.jl, DelimitedFiles.jl, CairoMakie.jl
 
-Nessa primeira versão é cálculado a bacia de atração, expo
+Nessa primeira versão é cálculado a Bacia de Atração, Mapa de fase e mapa de Poincaré.
+
+
+** References
+
+RIBEIRO, Mauricio A. et al. Nonlinear dynamics behaviour and its control under frequency-varying excitations for energy harvesting. International Journal of Nonlinear Dynamics and Control, v. 2, n. 3, p. 219-238, 2023.
+
+RIBEIRO, Mauricio A., et al. "MEMS-Based Atomic Force Microscope: Nonlinear Dynamics Analysis and Its Control." (2022).
 
 
 
