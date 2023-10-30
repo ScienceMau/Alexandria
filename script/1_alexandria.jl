@@ -1,4 +1,4 @@
-using LaTeXStrings,DynamicalSystems, SharedArrays, MAT, Statistics, OrdinaryDiffEq, ProgressMeter, DelimitedFiles, CairoMakie
+using DynamicalSystems, SharedArrays, MAT, Statistics, OrdinaryDiffEq, ProgressMeter, DelimitedFiles, CairoMakie
 mkdir("Matlab_files")
 mkdir("data_files")
 mkdir("Figures_files")
