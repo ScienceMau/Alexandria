@@ -10,7 +10,7 @@ $$ \dot{z}+g(z,\bar{z}) = Ae^{\omega t} $$
 
 where: $z$ is a complex variable and described as $z=x+yi$ and $g(z,\bar{z})$ is a function that contains the complex variable and its conjugate $\bar{z} = x-yi$. This way, we can also determine $\dot{z}=\dot{x}+\dot{y}i$, so we write the general equation as follows:
 
-$$ \dot{z}=\dot{x}+\dot{y}i +g(z,\bar{z}) = Ae^{\omega t} $$
+$$ \dot{z}=\dot{x}+\dot{y}i +g(z,\bar{z}) = Ae^{i \omega t} $$
 
 Therefore, rewriting the above equation, separating the Real and Imaginary parts, we will have:
 
