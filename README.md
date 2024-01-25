@@ -4,30 +4,30 @@ Calculation of some dynamic quantities of a system of differential equations ari
 
 ## Mathematical modeling
 
-O modelo matemático pode ser determinado seguindo a equação geral dada por:
+Mathematical model can be determined following the general equation given by:
 
 $$ \dot{z}+g(z,\bar{z}) = Ae^{\omega t} $$
 
-em que: $z$ é uma váriavel complexa e descrita como $z=x+yi$ e $g(z,\bar{z})$ é uma função que contém a variável complexa e seu conjugado $\bar{z}= x-yi$. Dessa forma, nós podemos determinar também $\dot{z}=\dot{x}+\dot{y}i$, sendo assim escrevemos a equação geral da seguinte forma:
+where: $z$ is a complex variable and described as $z=x+yi$ and $g(z,\bar{z})$ is a function that contains the complex variable and its conjugate $\bar{z} = x-yi$. This way, we can also determine $\dot{z}=\dot{x}+\dot{y}i$, so we write the general equation as follows:
 
 $$ \dot{z}=\dot{x}+\dot{y}i +g(z,\bar{z}) = Ae^{\omega t} $$
 
- Portanto, reescrevendo a equação acima, separando a parte Real e a Imaginária, teremos:
+Therefore, rewriting the above equation, separating the Real and Imaginary parts, we will have:
 
- $$ \dot{x} = Acos(\omega t)- \mathcal{Re}[g(z,\bar{z})] $$
+$$ \dot{x} = Acos(\omega t)- \mathcal{Re}[g(z,\bar{z})] $$
  
- $$ \dot{y} = Asin(\omega t)- \mathcal{Im}[g(z,\bar{z})] $$
+$$ \dot{y} = Asin(\omega t)- \mathcal{Im}[g(z,\bar{z})] $$
 
-Nesses scripts, nós utilizaremos $g(z,\bar{z})=(z^2+\bar{z}^2)z+\bar{z}$, dessa forma teremos as seguintes equações diferenciais:
+In these scripts, we will use $g(z,\bar{z})=(z^2+\bar{z}^2)z+\bar{z}$, this way we will have the following differential equations:
 
 $$ \dot{x} = 4xy^2-x+A cos(\omega t)$$
 
 $$ \dot{y} = -4x^2y+y+Acos(\omega t )$$
 
-O arquivo 1_script.jl utiliza as seguintes bibliotecas: 
+The 1_Alexandria.jl file uses the following libraries:
 DynamicalSystems.jl, SharedArrays.jl, MAT.jl, Statistics.jl, OrdinaryDiffEq.jl, ProgressMeter.jl, DelimitedFiles.jl, CairoMakie.jl
 
-Nessa primeira versão é cálculado a Bacia de Atração, Mapa de fase e mapa de Poincaré.
+In this first version, the Basin of Attraction, Phase map and Poincaré map are calculated.
 
 ** Imagens geradas
 * Basins of Attraction
