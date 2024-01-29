@@ -27,20 +27,8 @@ $$ \dot{y} = -4x^2y+y+Acos(\omega t )$$
 The 1_Alexandria.jl file uses the following libraries:
 DynamicalSystems.jl, SharedArrays.jl, MAT.jl, Statistics.jl, OrdinaryDiffEq.jl, ProgressMeter.jl, DelimitedFiles.jl, CairoMakie.jl
 
-In this first version, the Basin of Attraction, Phase map and Poincaré map are calculated.
-
-** Imagens geradas
-* Basins of Attraction
-  
-![Basin](https://github.com/ScienceMau/Alexandria/assets/61286097/340834f1-09a1-4a30-9eff-b46aca0cbc88)
-
-* Phase Maps
- 
-![Phase_map_1 0_](https://github.com/ScienceMau/Alexandria/assets/61286097/5bdfc605-b07a-43bc-86cb-642cca83130c)
-
-* Poincare Map
-  
-![Poincare_map_1 0_](https://github.com/ScienceMau/Alexandria/assets/61286097/17b9fbfb-81e6-474b-87cf-769cb925a142)
+[![Blog](https://img.shields.io/badge/EVENT-DYCAELS2023-red?style=for-the-badge)](https://dycaels2023.github.io/DYCAELS2023/)
+[![Blog](https://img.shields.io/badge/Presentation-red?style=for-the-badge)](https://dycaels2023.github.io/DYCAELS2023/)
 
 
 ** References
