@@ -31,11 +31,4 @@ DynamicalSystems.jl, SharedArrays.jl, MAT.jl, Statistics.jl, OrdinaryDiffEq.jl, 
 [![Blog](https://img.shields.io/badge/Presentation-red?style=for-the-badge)](https://dycaels2023.github.io/DYCAELS2023/)
 
 
-** References
-
-RIBEIRO, Mauricio A. et al. Nonlinear dynamics behaviour and its control under frequency-varying excitations for energy harvesting. International Journal of Nonlinear Dynamics and Control, v. 2, n. 3, p. 219-238, 2023.
-
-RIBEIRO, Mauricio A., et al. "MEMS-Based Atomic Force Microscope: Nonlinear Dynamics Analysis and Its Control." (2022).
-
-
 
