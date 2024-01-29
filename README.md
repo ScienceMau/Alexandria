@@ -28,7 +28,7 @@ The 1_Alexandria.jl file uses the following libraries:
 DynamicalSystems.jl, SharedArrays.jl, MAT.jl, Statistics.jl, OrdinaryDiffEq.jl, ProgressMeter.jl, DelimitedFiles.jl, CairoMakie.jl
 
 [![Blog](https://img.shields.io/badge/EVENT-DYCAELS2023-red?style=for-the-badge)](https://dycaels2023.github.io/DYCAELS2023/)
-[![Blog](https://img.shields.io/badge/Presentation-red?style=for-the-badge)](https://dycaels2023.github.io/DYCAELS2023/)
+[![Blog](https://img.shields.io/badge/Presentation-blue?style=for-the-badge)](https://github.com/ScienceMau/Alexandria/blob/main/tex/presentation.pdf)
 
 
 
